@@ -1,2 +1,0 @@
-# LearningWebAppDev
-Amazeriffic
