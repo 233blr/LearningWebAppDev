@@ -4,9 +4,12 @@ body {
 }
 body a {
     font-weight: bold;
-    color: #BB3333;
+    color:  #f00;
     text-decoration: none;
 }
+  
+/* HEADER */
+
 header, main, footer {
     min-width: 855px;
 }
@@ -17,84 +20,76 @@ header .container, main .container, footer .container {
 header {
     background: white;
     overflow: auto;
+    padding-bottom: 10px;
     border-bottom: 1px solid gray;
 }
 header h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    font-size: 3em;
+    color: #b33;
     float: left;
     width: 570px;
-    font-family: 'Ubuntu';
-    font-size: 50px;
-    font-weight: bold;
-    font-style: italic;
-    color: #BB3333;
-    padding: 20px;
 }
 header nav {
     float: right;
     width: 285px;
-    padding: 20px;
-    font-weight: bold;
+    padding-top: 10px;
 }
+  
+/* MAIN */
+
 main {
     background: white;
     overflow: auto;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     border-bottom: 1px solid gray;
 }
-main #map {
-    font-size: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-main .leftcontainer {
+main .left {
     float: left;
     width: 570px;
-    padding: 15px;
+    padding-top: 10px;
 }
-main h2 {
-    font-family: 'Ubuntu';
-    font-weight: bold;
-    font-size: 24px;
-    padding: 5px;
+main .left h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
-main p {
-    padding: 5px;
+main .left h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.25em;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
-main ul {
-    padding: 5px;
-}
-main h3 {
-    font-family: 'Ubuntu';
-    font-size: 20px;
-    font-weight: bold;
-    padding: 5px;
-}
-main .rightcontainer {
+main .right {
     float: right;
     width: 285px;
-    padding: 15px;
 }
-footer .contact {
+  
+/* FOOTER */
+
+footer h5 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.25em;
+    margin-bottom: 20px;
+}
+footer .contact p:nth-child(2){
+    font-style: italic;
+}
+footer .left {
     float: left;
     width: 570px;
-    padding: 20px;
-}
-footer h5 {
-    font-size: 20px;
-    padding-bottom: 10px;
+    padding-top: 10px;
 }
 footer .sitemap {
     float: right;
     width: 285px;
-    padding: 20px;
+    padding-top: 10px;
 }
-footer #map {
-    font-size: 20px;
-    padding-bottom: 10px;
-}
-footer .leftsitemap {
+footer .sitemapleft {
     float: left;
 }
-footer .rightsitemap {
+footer .sitemapright {
     float: right;
 }
